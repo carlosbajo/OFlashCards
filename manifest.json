@@ -4,11 +4,11 @@
     "description": "Flash cards for everyone!",
     "permissions": ["declarativeContent","storage"],
     "background": {
-        "scripts": ["src/main.js"],
+        "scripts": ["src/setup.js"],
         "persistent": false
     },
     "page_action": {
-        "default_popup": "src/popup.html"
+        "default_popup": "src/popup/popup.html"
     },
     "manifest_version": 2
 }
